@@ -1,0 +1,15 @@
+name = "slack-crop-analyzer"
+main = "src/index.js"
+compatibility_date = "2023-12-01"
+
+[env.production.vars]
+# Slack設定
+SLACK_BOT_TOKEN = ""
+SLACK_SIGNING_SECRET = ""
+
+# AI画像解析API設定（例：OpenAI Vision API）
+OPENAI_API_KEY = ""
+
+# または他のAI画像解析サービス
+# GOOGLE_CLOUD_API_KEY = ""
+# AZURE_COMPUTER_VISION_KEY = ""
